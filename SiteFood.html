@@ -1,0 +1,76 @@
+<!--Создай таблицу с рейтингом ваших любимых/нелюбимых блюд.
+В таблице должно быть минимум 5 рядов и 4 столбца:
+Первый столбец - название блюда;-->
+<!--Второй столбец - ваша оценка от 1 до 10;-->
+<!--Третий столбец - ссылка на рецепт;-->
+<!--Четвертый столбец - фото блюда.-->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рейтинг Блюд</title>
+    <style>
+        body {
+            background-color: #e0f7da; /* Бледно-зеленый фон */
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        img {
+            width: 200px; /* Увеличение размера изображений в 2 раза */
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Мой Рейтинг Блюд</h1>
+    <table>
+        <tr>
+            <th>Название Блюда</th>
+            <th>Оценка</th>
+            <th>Ссылка на Рецепт</th>
+            <th>Фото</th>
+        </tr>
+        <tr>
+            <td>Салат Фаворит</td>
+            <td>9</td>
+            <td><a href="https://1000.menu/cooking/24428-salat-favorit-s-kuricei?ysclid=m0i9stombb999058431" target="_blank">Рецепт</a></td>
+            <td><img src="https://static.1000.menu/img/content-v2/3c/be/24428/salat-favorit_1641189717_18_max.jpg" alt="Фаворит"></td>
+        </tr>
+        <tr>
+            <td>Пицца Цезарь</td>
+            <td>8</td>
+            <td><a href="https://1000.menu/cooking/16054-picca-cezar-v-duxovke?ysclid=m0i9v5c5jt958786075" target="_blank">Рецепт</a></td>
+            <td><img src="https://static.1000.menu/res/640/img/content-v2/0d/fd/16054/picca-cezar-v-duxovke-na-drojjevom-teste_1720865462_25_01wzlk3_max.jpg" alt="Пицца"></td>
+        </tr>
+        <tr>
+            <td>Сырный суп</td>
+            <td>7</td>
+            <td><a href="https://1000.menu/cooking/42079-syrnyi-sup-pure-s-plavlennym-syrom-i-kuricei" target="_blank">Рецепт</a></td>
+            <td><img src="https://static.1000.menu/res/640/img/content-v2/4b/d0/42079/syrnyi-sup-pure-s-plavlennym-syrom-i-kuricei_1577983322_17_max.jpg" alt="Сырный суп"></td>
+        </tr>
+        <tr>
+            <td>Жареная картошка с лисичками</td>
+            <td>10</td>
+            <td><a href="https://1000.menu/cooking/36812-jarenye-lisichki-s-kartoshkoi-na-skovorode" target="_blank">Рецепт</a></td>
+            <td><img src="https://static.1000.menu/res/640/img/content-v2/03/ee/36812/jarenye-lisichki-s-kartoshkoi-na-skovorode_1627658626_1_max.jpg" alt="Жареная картошка"></td>
+        </tr>
+        <tr>
+            <td>Торт Наполеон</td>
+            <td>8</td>
+            <td><a href="https://www.russianfood.com/recipes/recipe.php?rid=48230" target="_blank">Рецепт</a></td>
+            <td><img src="https://img1.russianfood.com/dycontent/images_upl/29/sm_28888.jpg" alt="Торт Наполеон"></td>
+        </tr>
+    </table>
+</body>
+</html>
